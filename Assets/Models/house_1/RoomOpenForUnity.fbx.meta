@@ -3,7 +3,32 @@ guid: 90efd5b3def4948ee86539dc3a44c044
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorTexture
+    second: {fileID: 2100000, guid: 5289a44540d9c42f3a83a21df44ded89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Texture
+    second: {fileID: 2100000, guid: d3a823c1c81ce49f496ab0e4b318aab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1Texture
+    second: {fileID: 2100000, guid: 10228583d049242439f6d6f51011bd9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall2Texture
+    second: {fileID: 2100000, guid: cc4a1613999cb4d41a71b1d400f08116, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: e6ac23bd076064d17a3b32769ee1edf7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
