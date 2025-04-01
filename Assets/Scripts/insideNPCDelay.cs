@@ -6,25 +6,21 @@ public class insideNPCDelay : MonoBehaviour
 {
        public GameObject ShadowManInside;
   
-    void Start()
+    public void Start()
     {
         ShadowManInside.SetActive(false);
         Invoke("SpawnDelay", 20f);
     }
 
-    void SpawnDelay()
+   public void SpawnDelay()
     {
         ShadowManInside.SetActive(true);
-        Invoke("HideCharacter", 8f);
+        Invoke("HideCharacter", 12f);
     }
 
-    void HideCharacter()
+    public void HideCharacter()
     {
         ShadowManInside.SetActive(false);
-
     }
-
-
-   
 }
 
