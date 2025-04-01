@@ -5,11 +5,13 @@ using UnityEngine;
 public class insideNPCDelay : MonoBehaviour
 {
        public GameObject ShadowManInside;
+       public bool IsActive = false;
   
     public void Start()
     {
         ShadowManInside.SetActive(false);
         Invoke("SpawnDelay", 20f);
+        Invoke ("SetIsActive", 23f);
     }
 
    public void SpawnDelay()
@@ -18,9 +20,20 @@ public class insideNPCDelay : MonoBehaviour
         Invoke("HideCharacter", 12f);
     }
 
+    public void SetIsActive()
+    {
+       IsActive = true;
+    }
+
+
+
+
     public void HideCharacter()
     {
+        if(IsActive)
+        {
         ShadowManInside.SetActive(false);
+    }
     }
 }
 
