@@ -25,9 +25,6 @@ public class insideNPCDelay : MonoBehaviour
        IsActive = true;
     }
 
-
-
-
     public void HideCharacter()
     {
         if(IsActive)
