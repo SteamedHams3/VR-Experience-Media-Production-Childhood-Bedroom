@@ -3727,6 +3727,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Canvas: {fileID: 294369183}
+--- !u!1001 &1313827713
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1236652
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.446
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.272
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      propertyPath: m_Name
+      value: ToyPlane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1579694435}
+  m_SourcePrefab: {fileID: 100100000, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
 --- !u!1001 &1361055463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4655,6 +4715,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3477455, y: 0.37591588, z: 0.3017889}
   m_Center: {x: -0.44864705, y: 0.20838058, z: 0.061229825}
+--- !u!1 &1579694433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0162606930a5a73418fdea33df9e3174, type: 3}
+  m_PrefabInstance: {fileID: 1313827713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1579694435
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579694433}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3390f203a69113e46aeed4c1118cc6c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1670752775
 GameObject:
   m_ObjectHideFlags: 0
@@ -6819,3 +6906,4 @@ SceneRoots:
   - {fileID: 619212796}
   - {fileID: 1026292816}
   - {fileID: 1758085931}
+  - {fileID: 1313827713}
