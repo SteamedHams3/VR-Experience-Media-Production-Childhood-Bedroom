@@ -10,7 +10,7 @@ public class UITeddy : MonoBehaviour
     public void Start()
     {
        CanvasTeddy.SetActive(false);
-       Invoke("LoadDelay", 26f);
+       Invoke("LoadDelay", 66f);
     }
 
     public void LoadDelay()

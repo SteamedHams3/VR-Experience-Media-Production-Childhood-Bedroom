@@ -9,7 +9,7 @@ public class FinalCreepySoundDelay : MonoBehaviour
     void Start()
     {
         soundInsideFinal = GetComponent<AudioSource>();
-        Invoke ("triggerSoundFinal", 40f);
+        Invoke ("triggerSoundFinal", 90f);
     }
 
     void triggerSoundFinal()

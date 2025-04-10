@@ -9,7 +9,7 @@ public class TriggerSoundDelay : MonoBehaviour
     void Start()
     {
         sound = GetComponent<AudioSource>();
-        Invoke ("triggerSound", 10f);
+        Invoke ("triggerSound", 29f);
     }
 
     void triggerSound()

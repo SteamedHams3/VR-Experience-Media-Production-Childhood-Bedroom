@@ -10,7 +10,7 @@ public class YellNPCDelay : MonoBehaviour
     void Start()
     {
         ShadowManYell.SetActive(false);
-        Invoke("SpawnDelay", 40f);
+        Invoke("SpawnDelay", 90f);
     }
 
     void SpawnDelay()

@@ -10,8 +10,8 @@ public class insideNPCDelay : MonoBehaviour
     public void Start()
     {
         ShadowManInside.SetActive(false);
-        Invoke("SpawnDelay", 20f);
-        Invoke ("SetIsActive", 23f);
+        Invoke("SpawnDelay", 60f);
+        Invoke ("SetIsActive", 63f);
     }
 
    public void SpawnDelay()

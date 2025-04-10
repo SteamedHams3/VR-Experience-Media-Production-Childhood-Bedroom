@@ -9,7 +9,7 @@ public class InsideTriggerSound : MonoBehaviour
     void Start()
     {
         soundInside = GetComponent<AudioSource>();
-        Invoke ("triggerSound", 20f);
+        Invoke ("triggerSound", 60f);
     }
 
     void triggerSound()

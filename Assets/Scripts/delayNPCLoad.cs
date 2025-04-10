@@ -9,7 +9,7 @@ public class delayNPCLoad : MonoBehaviour
     void Start()
     {
         ShadowMan.SetActive(false);
-        Invoke("SpawnDelay", 11f);
+        Invoke("SpawnDelay", 30f);
     }
 
     void SpawnDelay()
