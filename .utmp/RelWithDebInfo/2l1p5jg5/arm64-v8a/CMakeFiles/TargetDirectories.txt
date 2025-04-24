@@ -1,0 +1,5 @@
+D:/Worksheet-Week-25th-with-Bedroom/.utmp/RelWithDebInfo/2l1p5jg5/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Worksheet-Week-25th-with-Bedroom/.utmp/RelWithDebInfo/2l1p5jg5/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Worksheet-Week-25th-with-Bedroom/.utmp/RelWithDebInfo/2l1p5jg5/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/Worksheet-Week-25th-with-Bedroom/.utmp/RelWithDebInfo/2l1p5jg5/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/Worksheet-Week-25th-with-Bedroom/.utmp/RelWithDebInfo/2l1p5jg5/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
