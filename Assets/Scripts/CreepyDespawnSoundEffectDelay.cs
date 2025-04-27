@@ -9,9 +9,9 @@ public class CreepyDespawnSoundEffectDelay : MonoBehaviour
     void Start()
     {
         CreepyDespawn = GetComponent<AudioSource>();
-        Invoke ("triggerCreepyDespawn", 37f);
-        Invoke ("triggerCreepyDespawn", 72f);
-        Invoke ("triggerCreepyDespawn", 97f);
+        Invoke ("triggerCreepyDespawn", 36f);
+        //Invoke ("triggerCreepyDespawn", 72f);
+        Invoke ("triggerCreepyDespawn", 96f);
     }
 
     void triggerCreepyDespawn()
