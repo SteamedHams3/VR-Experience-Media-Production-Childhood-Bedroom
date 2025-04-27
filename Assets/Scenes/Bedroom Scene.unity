@@ -2717,8 +2717,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.7529102, z: 2.2965167}
-  m_Center: {x: -4.675696e-16, y: 0.3714397, z: 0.043483432}
+  m_Size: {x: 1, y: 0.649712, z: 2.2965167}
+  m_Center: {x: -4.675696e-16, y: 0.3198407, z: 0.043483432}
 --- !u!20 &664065369 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -2956,6 +2956,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &833893302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833893294}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5944155, y: 2.8830497, z: 1.112908}
+  m_Center: {x: 0.0006181597, y: 0.50222325, z: 0.1663925}
 --- !u!1 &850878255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7a1a2def29e0f4656aa6f89623545969, type: 3}
@@ -6234,6 +6255,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e73a77ac4d0c44cd8ab26216a65b82c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 833893298}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e73a77ac4d0c44cd8ab26216a65b82c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 833893302}
   m_SourcePrefab: {fileID: 100100000, guid: 5e73a77ac4d0c44cd8ab26216a65b82c, type: 3}
 --- !u!1 &1796971127
 GameObject:
