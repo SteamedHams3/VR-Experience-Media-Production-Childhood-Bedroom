@@ -9,7 +9,7 @@ public class PlaneSoundEffectDelay : MonoBehaviour
     void Start()
     {
         PlaneSoundEffect = GetComponent<AudioSource>();
-        Invoke ("triggerPlaneSoundEffect", 22f);
+        Invoke ("triggerPlaneSoundEffect", 22.5f);
     }
 
     void triggerPlaneSoundEffect()
